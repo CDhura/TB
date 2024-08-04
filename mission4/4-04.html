@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .display-flex{ 
+            /* background: lightgray; */
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(167, 162, 140);
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body background="sunahama.jpg">
+    <h1 style="text-align: center; color:white">
+        今日の運勢を占ってみましょう<br>
+    </h1>
+    <div style="text-align:center">
+        <button type="button" onclick="onclickSample()" style="width: 150px; height: 60px; font-size:20px">おみくじ</button>
+        <div id="id1" class="display-flex"></div>
+        <!-- <div id="id1" class="background-image"></div> -->
+    </div>
+    <div style="color:white">
+        （背景画像の出典：みんちりえ（ https://min-chi.material.jp/ ））
+    </div>
+    <script src="4-04.js"></script>
+</body>
+</html>
